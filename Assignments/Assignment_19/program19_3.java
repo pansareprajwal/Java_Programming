@@ -2,8 +2,8 @@ class Logic
 {
     //////////////////////////////////////////////////////////////
     //
-    //  Function name : displayGrade
-    //  Description   : To display grade by marks
+    //  Function name : checkDivisible
+    //  Description   : To check number is divisible by 5 and 11
     //  Input         : int
     //  Output        : void
     //  Author        : Prajwal Sanjay Pansare
@@ -11,24 +11,20 @@ class Logic
     //
     //////////////////////////////////////////////////////////////
 
-    void displayGrade(int num)
+    void checkDivisible(int num)
     {
-        if((num > 100) || (num < 0))
+        if(num < 0)
         {
-            System.out.print("Invalid Marks");
+            num = -num;
         }
 
-        if((num > 75) && (num < 100))
+        if(((num % 5) == 0) || (num % 11) == 0)
         {
-            System.out.print("A grade");
+            System.out.print("It is divisible");
         }
-        else if((num > 50) && (num < 75))
+        else
         {
-            System.out.print("B grade");
-        }
-        else if((num < 50) && (num >= 0))
-        {
-            System.out.print("C grade");
+            System.out.print("It is not divisible");
         }
     }
 }
@@ -39,11 +35,11 @@ class Logic
 //
 //////////////////////////////////////////////////////////////
 
-class program19_2
+class program19_3
 {
     public static void main(String argu[])
     {
         Logic obj = new Logic();
-        obj.displayGrade(82);  
+        obj.checkDivisible(55);  
     }
 }

@@ -2,8 +2,8 @@ class Logic
 {
     //////////////////////////////////////////////////////////////
     //
-    //  Function name : displayGrade
-    //  Description   : To display grade by marks
+    //  Function name : calculatePower
+    //  Description   : To Display the digits of the numbers
     //  Input         : int
     //  Output        : void
     //  Author        : Prajwal Sanjay Pansare
@@ -11,25 +11,17 @@ class Logic
     //
     //////////////////////////////////////////////////////////////
 
-    void displayGrade(int num)
+    void calculatePower(int base, int exp)
     {
-        if((num > 100) || (num < 0))
-        {
-            System.out.print("Invalid Marks");
-        }
+        int iCnt = 0;
+        int iTotal = 0;
 
-        if((num > 75) && (num < 100))
+        iTotal = 1;
+        for(iCnt = 1; iCnt <= exp; iCnt++)
         {
-            System.out.print("A grade");
+            iTotal = iTotal*base;
         }
-        else if((num > 50) && (num < 75))
-        {
-            System.out.print("B grade");
-        }
-        else if((num < 50) && (num >= 0))
-        {
-            System.out.print("C grade");
-        }
+        System.out.print("Power of number is "+iTotal);
     }
 }
 
@@ -39,11 +31,11 @@ class Logic
 //
 //////////////////////////////////////////////////////////////
 
-class program19_2
+class program19_5
 {
     public static void main(String argu[])
     {
         Logic obj = new Logic();
-        obj.displayGrade(82);  
+        obj.calculatePower(2, 5);  
     }
 }

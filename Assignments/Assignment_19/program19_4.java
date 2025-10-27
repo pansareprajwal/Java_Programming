@@ -2,8 +2,8 @@ class Logic
 {
     //////////////////////////////////////////////////////////////
     //
-    //  Function name : displayGrade
-    //  Description   : To display grade by marks
+    //  Function name : printDigits
+    //  Description   : To Display the digits of the numbers
     //  Input         : int
     //  Output        : void
     //  Author        : Prajwal Sanjay Pansare
@@ -11,25 +11,25 @@ class Logic
     //
     //////////////////////////////////////////////////////////////
 
-    void displayGrade(int num)
+    void printDigits(int num)
     {
-        if((num > 100) || (num < 0))
+        int iDigit1, iDigit2 = 0;
+        int iRev = 0;
+
+        while(num != 0)
         {
-            System.out.print("Invalid Marks");
+            iDigit1 = num % 10;
+            num = num / 10;
+            iRev = (iRev*10) + iDigit1;
         }
 
-        if((num > 75) && (num < 100))
+        while(iRev != 0)
         {
-            System.out.print("A grade");
+            iDigit2 = iRev % 10;
+            iRev = iRev / 10;
+            System.out.print(iDigit2+" ");
         }
-        else if((num > 50) && (num < 75))
-        {
-            System.out.print("B grade");
-        }
-        else if((num < 50) && (num >= 0))
-        {
-            System.out.print("C grade");
-        }
+
     }
 }
 
@@ -39,11 +39,11 @@ class Logic
 //
 //////////////////////////////////////////////////////////////
 
-class program19_2
+class program19_4
 {
     public static void main(String argu[])
     {
         Logic obj = new Logic();
-        obj.displayGrade(82);  
+        obj.printDigits(9876);  
     }
 }

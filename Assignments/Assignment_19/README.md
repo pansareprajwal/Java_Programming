@@ -18,23 +18,23 @@ PROGRAM2:
 PROGRAM3:
 | **#** | **User Input** | **Program Output** |
 |:-----:|--------------------|------------------|
-|   1   | `20`  | `1 3 5 7 9 11 13 15 17 19` |
-|   2   | `15`  | `1 3 5 7 9 11 13 15` |
+|   1   | `55`  | `It is divisible` |
+|   2   | `13`  | `It is not divisible` |
+|   3   | `9`  | `It is not divisible` |
 
 
 PROGRAM4:
 | **#** | **User Input** | **Program Output** |
 |:-----:|--------------------|------------------|
-|   1   | `123456`  | `Summation of Even : 12  Summation of Odd : 9` |
-|   2   | `345678`  | `Summation of Even : 18  Summation of Odd : 15` |
+|   1   | `9876`  | `9 8 7 6` |
+|   2   | `123467`  | `1 2 3 4 6 7` |
 
 
 PROGRAM5:
 | **#** | **User Input** | **Program Output** |
 |:-----:|--------------------|------------------|
-|   1   | `-8`  | `Number is Negative` |
-|   2   | `12`  | `Number is Positive` |
-|   3   | `0`  | `Number is Zero` |
+|   1   | `2 5`  | `Power of number is 32` |
+|   2   | `4 2`  | `Power of number is 16` |
 
 
 

@@ -35,6 +35,6 @@ class program19_1
     public static void main(String argu[])
     {
         Logic obj = new Logic();
-        obj.checkLeapYear(2019);  // Example input
+        obj.checkLeapYear(2019);  
     }
 }
