@@ -78,7 +78,7 @@ JAVA_PROGRAMMING/
 
 ## Author
 
-**Prajwal Pansare**
+**Prajwal Pansare**<br>
 📍 Computer Engineering Student<br> 
 🔗 [GitHub Profile](https://github.com/pansareprajwal)
 
