@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : FirstOcc
+    //  Description   : To find First occurence of element in data
+    //  Input         : int, int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int FirstOcc(int Brr[], int iSize, int iNo)
     {
         int iCnt = 0;

@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Frequency
+    //  Description   : To find frequency of given element
+    //  Input         : int, int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int Frequency(int Brr[], int iSize, int iNo)
     {
         int iCnt = 0, iCount = 0;

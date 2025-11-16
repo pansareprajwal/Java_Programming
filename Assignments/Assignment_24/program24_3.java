@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Difference
+    //  Description   : to get difference between largest and smallest number
+    //  Input         : int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int Difference(int Brr[], int iSize)
     {
         int iCnt = 0;

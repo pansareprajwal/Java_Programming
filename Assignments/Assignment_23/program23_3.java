@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : LastOcc
+    //  Description   : To find last Occurence of element in data
+    //  Input         : int, int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int LastOcc(int Brr[], int iSize, int iNo)
     {
         int iCnt = 0;

@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Display
+    //  Description   : To get difference between summation of Even and Odd elements
+    //  Input         : int, int
+    //  Output        : void
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int Difference(int Brr[], int iSize)
     {
         int iCnt = 0, iEven = 0, iOdd = 0;

@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Check
+    //  Description   : Whether the number present or not in data
+    //  Input         : int, int, int
+    //  Output        : boolean
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public boolean Check(int Brr[], int iSize, int iNo)
     {
         int iCnt = 0;

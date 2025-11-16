@@ -2,6 +2,16 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Frequency
+    //  Description   : Freqency difference of Even and Odd
+    //  Input         : int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
     public int Frequency(int Brr[], int iSize)
     {
         int iCnt = 0, iEven = 0, iOdd = 0;

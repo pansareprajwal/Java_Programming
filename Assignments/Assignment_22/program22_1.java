@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : CountEven
+    //  Description   : Frequency of Even Elements of data
+    //  Input         : int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public int CountEven(int Brr[], int iSize)
     {
         int iCnt = 0, iFrequency = 0;

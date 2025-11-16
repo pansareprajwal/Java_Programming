@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : DigitsSum
+    //  Description   : To get summation of digits of elements from data
+    //  Input         : int, int
+    //  Output        : int
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public void DigitsSum(int Brr[], int iSize)
     {
         int iCnt = 0, iDigit = 0, iNo = 0, iSum = 0;

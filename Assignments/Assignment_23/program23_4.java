@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Range
+    //  Description   : To get elements between range
+    //  Input         : int, int, int, int
+    //  Output        : void
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public void Range(int Brr[], int iSize, int iStart, int iEnd)
     {
         int iCnt = 0;

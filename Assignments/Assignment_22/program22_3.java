@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Frequency
+    //  Description   : Whether the data contains 11 or not
+    //  Input         : int, int
+    //  Output        : boolean
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public boolean Frequency(int Brr[], int iSize)
     {
         int iCnt = 0;

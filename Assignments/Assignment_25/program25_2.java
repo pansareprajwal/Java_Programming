@@ -2,6 +2,17 @@ import java.util.*;
 
 class ArrayX
 {
+    //////////////////////////////////////////////////////////////
+    //
+    //  Function name : Display
+    //  Description   : To show elements which are divisible by 5
+    //  Input         : int, int
+    //  Output        : void
+    //  Author        : Prajwal Sanjay Pansare
+    //  Date          : 16/11/2025
+    //
+    //////////////////////////////////////////////////////////////
+
     public void Display(int Brr[], int iSize)
     {
         int iCnt = 0;
