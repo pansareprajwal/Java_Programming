@@ -37,5 +37,7 @@ class program26_3
         
         Pattern pobj = new Pattern();
         pobj.Display(iValue);
+
+        sobj.close();
     }
 }

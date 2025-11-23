@@ -51,5 +51,7 @@ class program29_4
         
         Pattern pobj = new Pattern();
         pobj.Display(iValue1, iValue2);
+
+        sobj.close();
     }
 }
