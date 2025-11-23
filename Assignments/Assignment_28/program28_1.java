@@ -6,7 +6,7 @@ class Pattern
     //
     //  Function name : Pattern
     //  Description :   print pattern using input
-    //  Input :         int
+    //  Input :         int, int
     //  Output :        void
     //  Author :        Prajwal Sanjay Pansare
     //  Date :          23/11/2025
